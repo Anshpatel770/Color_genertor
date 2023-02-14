@@ -1,0 +1,39 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15%;
+}
+
+.row{
+     width: 27%;
+    height: 208px;
+
+     box-shadow: 2px 2px 3px rgb(192, 14, 14);
+    
+}
+#color-code{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10%;
+     font-size: 40px;
+}
+.button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10%
+    
+}
+button{
+     font-size: 22px;
+     border-radius: 6px;
+     cursor: pointer;
+     padding: 8px 116px;
+}
